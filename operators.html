@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //arithmetic operators
+    console.log("arithmetic operators");
+    var a=24;
+    var b=3;
+    //addition
+    console.log("after addition the value is :"+ (a+b));
+    //multiplication
+    console.log("after multiplication the value is :"+ a*b);
+    //division
+    console.log("after division the value is :" + a/b);2
+    //modulus
+    console.log("after modulus the value is :" + a%b);//4/2=>remainder=0,quotient=2//0
+    //subtraction
+    console.log("after subtraction the value is :" + (a-b));
+    //increment
+    a++;//a=a+1;a++;a+=1
+    console.log("after increment the value is :" +a );
+    
+    //decrement
+    a--;//a=a-1
+    console.log("after decrement the value is :" + a);
+    //exponential
+    console.log("after exponential the value is :" +(a**2) );//24**2
+    //assignment operators
+    //equal to
+    var x=10;
+    var y=20;
+    console.log("the value of x after assignment is:"+ x);
+    console.log( "the value of y after assignment is:"+y);
+    //addition assignment
+    x+=10;//x=x+10;
+    console.log("the value after addition assignment is :"+(x));
+    x-=8;//x=x-8
+    console.log("the value after subtraction assignment is :"+(x));
+    x/=3;//x=x/3;12/3==4
+    console.log("the value after division assignment is :"+x);
+    x%=2;//x=x%2;4%2=0
+    console.log("the value after modulus assignment is :"+x);
+    var x=2;
+    x**=2;//x=x**2//2**2=4
+    console.log("the value after exponential assignment is :"+x);
+    x*=3;//x=x*3=12
+    console.log("the value after multiplication assignment is :"+x);
+    //comparision operators
+    var p=10;
+    var q=20;
+    console.log("comparision operators");
+    console.log("value of p is 10 and q is 20");
+    console.log("comparision p==q operator:"+(p==q));
+    console.log("comparision p<=q operator:"+(p<=q));
+    console.log("comparision p>=q operator:"+(p>=q));
+    console.log("comparision p===q operator:"+(p===q));
+    console.log("comparision p!=q operator:"+(p!=q));
+    console.log("comparision p<q operator:"+(p<q));
+    console.log("comparision p>q operator:"+(p>q));
+    console.log("comparision p!==q operator:"+(p!==q));
+  
+    //logical operators
+    console.log("Logical operators");
+    console.log("value of p is 10 and q is 20");
+    console.log("comparision && operator:"+(p>10&&q<10));//true and true=true or else if any of either conditions are false it will get op as false
+    console.log("comparision || operator:"+(p<20||q>10));//any is true =true
+    console.log("comparision ! operator:"+(!(p=10)));//true=false,false=true
+    //unary operators
+    console.log("Unary operators");
+    var a= "20"
+    console.log("unary operator we gave a string and we got a"+(typeof(+a) ));
+    console.log("unary operator we gave a string and we got "+(-a));
+    console.log("value of string 20 after unary increment is:"+(++a));//a=a+1
+    console.log("value of string 20 after unary decrement is:"+(--a));//a=a-1
+
+    //ternary operators
+     var m=10;
+     var n=20;
+     console.log("the value of m is 10 and n is 20 and we are giving condition as m>n");
+     console.log((m<n)?true:false );
+     //bitwise operators
+     var s=5;
+     var q=9;
+     console.log("bitwise operators");
+     console.log("bitwise and :"+(s&q));
+     console.log("bitwise or :"+(s|q));
+     console.log("bitwise xor :"+(s^q));
+     
+     
+
+</script>
+</body>
+</html>
